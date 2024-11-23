@@ -1,3 +1,27 @@
-.terraform/
+# Terraform state files
 *.tfstate
+*.tfstate.*
+
+# Backup files
 *.tfstate.backup
+
+# Plan files
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+
+# Terraform configuration directory
+.terraform/
+
+# Windows-specific files
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
