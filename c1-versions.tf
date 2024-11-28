@@ -12,6 +12,7 @@ terraform {
 provider "aws" {
     
 
+
   profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
   #shared_credentials_files = ["$HOME/.aws/credentials"]
 }
